@@ -143,6 +143,8 @@ def option():
         if "exit " in inp:
             jarvis = inp.replace("exit", "")
             exit(jarvis)
+        if "open " in inp:
+            open(run_alexa())
 
 
 while True:
